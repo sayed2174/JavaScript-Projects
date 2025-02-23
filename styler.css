@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:sans-serif;
+}
+body{
+    background: #663a3a;
+}
+.container{
+   width: 90%;
+   max-width: 470px;
+   border: 2px solid white;
+   background: rgb(115,115,115);
+   background: linear-gradient(90deg, rgba(115,115,115,1) 0%, rgba(123,123,179,1) 55%, rgba(88,108,113,1) 100%);
+   color: #fff;
+   margin: 100px auto 0;
+   border-radius: 20px;
+   text-align: center;
+   padding: 45px 30px;
+}
+.container .title{
+    padding-bottom: 30px;
+}
+.dater{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dater .label{
+    text-shadow: -3px 0px 6px rgba(128, 0, 0, 0.52);
+}
+.dater input{
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    width: 158px;
+    height: 30px;
+}
+input:hover{
+    color: white;
+    background-color: #705e88;
+    cursor: pointer;
+}
+input:c
+.dater button{
+    border: none;
+    border-radius: 80%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+button:hover{
+    color: white;
+    background-color: #705e88;
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+.container .result{
+    width: 90%;
+    border: 2px solid rgb(190, 174, 174);
+    background: rgb(115,115,115);
+    background: linear-gradient(90deg, rgb(63, 21, 21) 0%, rgb(117, 117, 133) 55%, rgb(64, 105, 116) 100%);
+    color: #fff;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 13px;
+ }
+ 
